@@ -1,0 +1,87 @@
+body{
+  font-family: Verdana;
+  background-color: darkcyan;
+}
+
+.picsDiv{
+  border: 2px solid mediumaquamarine;
+  width:273px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.pics{
+  border: 2px solid mediumaquamarine;
+  height: 80px;
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  }
+
+  .Questions{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+ button{
+   padding: 10px;
+   width: 50px;
+   height: 15px;
+   border-radius: 7px;
+   font-size: 10px;
+   background-color: lightcoral;
+   text-align: center;
+   line-height: 0px;
+ }
+
+ button:hover{
+   background-color: tomato;
+ }
+
+
+
+.counter-box, .comment-box{
+  border: 2px solid mediumaquamarine;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px auto;
+  width: 400px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.comment{
+  border-bottom: 1px solid mediumaquamarine;
+  padding: 10px;
+}
+
+.comment-form{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.comment-form input{
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.comment-form input[type=submit]{
+  width: 100%;
+  padding: 10px;
+  margin 20px auto;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: mediumaquamarine;
+  border-radius: 5px;
+}
+
+.countries-box{
+  
+}
